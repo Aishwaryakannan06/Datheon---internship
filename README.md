@@ -1,77 +1,55 @@
-# Datheon Full-Stack Internship Projects
+# Aishwarya K — Developer Portfolio
 
-Welcome to my project repository for the **Datheon Full-Stack Development Internship**. This repository contains two projects developed to practise web development skills.
+A responsive personal portfolio website for Aishwarya K, B.Tech Artificial Intelligence and Data Science student and aspiring software developer.
 
-## 🚀 Projects
+## Features
 
-### 1. Personal Portfolio Website
+- Responsive, mobile-first layout
+- Dark/light theme toggle (remembers preference in the browser)
+- Mobile hamburger navigation
+- Smooth scrolling navigation
+- About, skills, projects, experience, achievements, education/training, and contact sections
+- Interactive project detail dialogs
+- Accessible labels, keyboard-friendly controls, and reduced-motion support
 
-A personal website showcasing my developer profile, skills, projects, and contact information.
+## Built with
 
-**Features**
-- Personal introduction and project showcase
-- About and contact sections
-- Responsive layout
-- Clean, user-friendly design
+- HTML5
+- CSS3 (Flexbox, Grid, responsive media queries)
+- Vanilla JavaScript (ES6+)
 
-**Technologies:** HTML, CSS, JavaScript
-
-### 2. Task Manager — Dayflow
-
-A productivity application designed to help users organize tasks and track their progress.
-
-**Features**
-- Add and manage tasks
-- Categorize tasks into Work, Personal, and Study
-- Set priorities and due dates
-- Mark tasks as completed
-- Filter tasks by All, Active, and Completed
-- Search tasks
-- View task statistics and completion progress
-- Save tasks using browser local storage
-- Theme toggle and responsive interface
-
-**Technologies:** HTML, CSS, JavaScript, Local Storage
-
-## 📂 Repository Structure
-
-```text
-Datheon---internship/
-├── portfolio/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── README.md
-├── task-manager/
-│   ├── index.html
-│   ├── style.css
-│   ├── script.js
-│   └── README.md
-└── README.md
-```
-
-## 🛠️ How to Run Locally
+## Run locally
 
 1. Download or clone this repository.
-2. Open the `portfolio` or `task-manager` folder.
-3. Open its `index.html` file in a web browser.
-4. For the Task Manager, browser local storage is used to preserve tasks between visits.
+2. Open `index.html` in a browser.
+3. For a local development server, open the folder in VS Code and use the Live Server extension, or run `python -m http.server 8000` in the project folder and visit `http://localhost:8000`.
 
-## 🎯 Learning Outcomes
+## Before publishing
 
-- Building web pages using HTML and CSS
-- Adding interactive functionality with JavaScript
-- Creating responsive user interfaces
-- Managing application data with local storage
-- Using GitHub for version control and project hosting
-- Publishing static websites using GitHub Pages
+1. In `index.html`, replace the LinkedIn and GitHub placeholder links with your real profile URLs.
+2. Add your expected graduation year if you want to display it.
+3. Add a resume PDF link once you have a resume ready.
+4. Verify all dates, role descriptions, awards, and project descriptions.
+5. Test the mobile menu, theme toggle, and project detail popups.
 
-## 👩‍💻 Author
+## Deploy
 
-**Aishwarya K.**
+### GitHub Pages
+1. Push these files to a public GitHub repository.
+2. Open **Settings → Pages** in the repository.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and `/ (root)`, then save.
+5. Wait for the published URL to appear in the Pages section.
 
-GitHub: [@Aishwaryakannan06](https://github.com/Aishwaryakannan06)
+### Netlify or Vercel
+Import the GitHub repository and deploy it as a static site. No build command is needed; use the repository root as the publish/output directory.
 
----
+## Project structure
 
-*Built with creativity
+```text
+aishwarya-portfolio/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
